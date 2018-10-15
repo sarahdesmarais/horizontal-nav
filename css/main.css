@@ -21,22 +21,29 @@ h1 {
   text-align: center;
 }
 
-ul {
+.nav {
+  margin: 0
+  padding: 0
   list-style-type: none;
   text-align: center;
 }
 
-nav li {
+.nav li {
   display: inline-block;
+  margin: 0 .3em 1em;
+  max-width: 20em
+  padding: .5em .75em;
   background-color: #713837;
   color: #fff;
   font-size: 1.2rem;
-  padding: .5em .75em;
   border-radius: 7px;
-  margin: .3em;
+
 }
 
-a {
+.nav a {
+  display: inline-block;
+  padding: .5em .75em;
+  border-radius: 7px;
   color: #fff;
   text-decoration: none;
 }
